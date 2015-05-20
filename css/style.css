@@ -2,10 +2,10 @@
 html, body { padding:0; margin:0; height:100% }
 body { font-family: "Helvetica Neue", Arial, Helvetica; font-size: 13px; line-height: 1.618; color:#444;}
 a{color: #1570A6; text-decoration: none; }
-a:link { color: #1570A6; text-decoration: none; }
-a:visited { color: #1570A6; text-decoration: none; }
-a:active { color: #1570A6; border-bottom: 1px dashed #C0C0C0; }
-a:hover { color: #1570A6; border-bottom: 1px dashed #C0C0C0; }
+a:hover, a:active, a:focus { outline:none; }
+a, a:active, a:visited { color:#ac1e06; text-decoration:none; }
+a:visited { color:#ae5849; }
+a:hover { text-decoration:underline; }
 
 h1{font-size:2em; line-height:30px; margin:0.67em 0 0.67em 0;}
 h2{font-size:1.5em; line-height:30px; margin:0.83em 0 0em 0;}
@@ -27,6 +27,8 @@ li ins.collapsed{ background:url(../images/icon_triangle_right_16x16.png) no-rep
 li ins.expanded{ background:url(../images/icon_triangle_down_16x16.png) no-repeat 0px 1px;}
 li ins.folder-collapsed{ background:url(../images/folder.png) no-repeat; margin-right:10px;}
 li ins.folder-expanded{ background:url(../images/folder-open.png) no-repeat; margin-right:10px;}
+li ins.icon-home{background:url(../images/home.png) no-repeat 0 2px; margin-right:10px;}
+li ins.icon-user{background:url(../images/user.png) no-repeat 0 2px; margin-right:10px;}
 li ins.icon-c{background:url(../images/icon_class.gif) no-repeat 0 2px; margin-right:10px;}
 li ins.icon-const{background:url(../images/icon_const.png) no-repeat 0 2px; margin-right:10px;}
 li ins.icon-d{background:url(../images/file-text2.png) no-repeat 0 0px; margin-right:10px;}
